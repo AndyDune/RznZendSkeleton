@@ -16,14 +16,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "zendframework/zendframework": "2.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "RznZendSkeleton": "src/"
-        },
-        "classmap": [
-            "./Module.php"
-        ]
+        "zendframework/zendframework": "2.*",
+        "zendexperts/ze-theme": "dev-master",
+        "andydune/rzn-view-component": "dev-master"
     }
 }
